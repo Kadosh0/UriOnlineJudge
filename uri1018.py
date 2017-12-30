@@ -10,8 +10,7 @@ n10r = n20r % 10
 n5 = n10r // 5
 n5r = n10r % 5
 n2 = n5r // 2
-n2r = n5r % 2
-n1 = n2r // 1
+n1 = n5r % 2
 print('{}'.format(u))
 print('{} nota(s) de R$ 100,00'.format(n100))
 print('{} nota(s) de R$ 50,00'.format(n50))
